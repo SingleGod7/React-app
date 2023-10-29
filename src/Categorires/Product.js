@@ -23,9 +23,9 @@ export default function Product({content}){
             <div className="bar">
                 <p className="path" > <span>{currentPath}</span> <span className="lastPath">{last}</span></p>
             </div>
-            <Display pos={displayPosition[0]} content={content[0]}/>
-            <Display pos={displayPosition[1]} content={null}/>
-            <Display pos={displayPosition[2]} content={null}/>
+            <Display pos={displayPosition[0]} content={content[0]} />
+            <Display pos={displayPosition[1]} content={content[1]}/>
+            <Display pos={displayPosition[2]} content={content[2]}/>
             <Footer />
         </>
     )

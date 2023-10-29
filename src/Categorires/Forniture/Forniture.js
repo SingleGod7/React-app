@@ -3,7 +3,9 @@ import FuniturePic from "./asserts/Funiture.png"
 
 export default function Funiture(){
     const contentFuniture = [
-        FuniturePic, null, null
+        {img:FuniturePic, url:"/product/electronics/details"}, 
+        {img:null, url:"/product/electronics/productlist"},
+        {img:null, url:"/product/electronics/productlist"}
     ]
 
     return (

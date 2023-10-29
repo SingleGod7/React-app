@@ -2,10 +2,12 @@ import Product from "../Product"
 
 export default function Electronics(){
     const contentElectronics = [
-        null, null, null
+        {img:null, url:"/product/electronics/productlist"}, 
+        {img:null, url:"/product/electronics/productlist"},
+        {img:null, url:"/product/electronics/productlist"}
     ]
     
     return (
-            <Product content={contentElectronics} />
+            <Product content={contentElectronics}/>
     )
 }

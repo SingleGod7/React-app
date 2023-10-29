@@ -2,7 +2,9 @@ import Product from "../Product"
 
 export default function Textbooks(){
     const contentTextbooks = [
-        null, null, null
+        {img:null, url:"/product/electronics/productlist"}, 
+        {img:null, url:"/product/electronics/productlist"},
+        {img:null, url:"/product/electronics/productlist"}
     ]
     
     return (
